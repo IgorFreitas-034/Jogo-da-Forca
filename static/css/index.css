@@ -1,0 +1,52 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+h2, h3, p {
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    width: 100%; 
+    overflow: hidden; 
+}
+
+img.senai-logo {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+.btn-play {
+    display: inline-block;
+    padding: 15px 30px; 
+    color: #fff;
+    background-color: #4A90E2; 
+    border: none; 
+    border-radius: 50px; 
+    font-size: 18px; 
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s; 
+    margin: 20px auto; 
+    cursor: pointer; 
+}
+
+.btn-play:hover {
+    background-color: #007BFF;
+    transform: translateY(-2px); 
+}
